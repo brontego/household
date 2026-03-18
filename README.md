@@ -93,7 +93,7 @@ The reliable setup flow on another computer is:
 
 1. clone `life-oversystem`
 2. run `.\life-oversystem\scripts\bootstrap_workspace.ps1 -Owner brontego -SyncExisting`
-3. open `life-systems.code-workspace`
+3. open `life-oversystem\life-systems.code-workspace`
 
 This works because `bootstrap_workspace.ps1` is wired to clone or sync `household` alongside the other sibling repos.
 
@@ -103,7 +103,7 @@ After bootstrapping on another computer, verify:
 
 - `Github/household/README.md` exists
 - `Github/household/state/subsystem_snapshot.yaml` exists
-- `Github/life-systems.code-workspace` includes `Household`
+- `Github/life-oversystem/life-systems.code-workspace` includes `Household`
 - `git -C household remote -v` shows `https://github.com/brontego/household.git`
 
 ## Dross sync contract
@@ -142,7 +142,7 @@ Once the remote exists, the intended new-computer flow is:
 
 1. clone `life-oversystem`
 2. run `life-oversystem/scripts/bootstrap_workspace.ps1`
-3. open `life-systems.code-workspace`
+3. open `life-oversystem/life-systems.code-workspace`
 
 That bootstrap flow is being wired to include `household` alongside the other repos.
 
