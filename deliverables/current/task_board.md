@@ -4,14 +4,13 @@
 
 | Task | Trigger | Status | Last Done | Effort | Current note |
 | --- | --- | --- | --- | --- | --- |
-| laundry - daily wear | hybrid | due soon | unknown | medium | hampers getting full; use this cycle to test whether ~7 days is about right |
+| laundry - daily wear | hybrid | due | unknown | medium | do today: wash, then dryer or hang wet clothes; folding is intentionally not planned yet |
 
 ## Candidate tasks
 
-- folding laundry
+- folding laundry (candidate only; do not auto-assume it is part of today's plan)
 - dishwasher cycle
 - bathroom clean
 - descale electric kettle
 - oil cutting boards
 - oil wooden spoons
-

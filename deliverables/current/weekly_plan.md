@@ -9,11 +9,13 @@ Start the household system with one real tracked task and tune it from actual li
 ## This week's active task
 
 - `laundry_daily_wear`
-  - status: `due soon`
+  - status: `due`
   - trigger: `hybrid`
   - trial cadence: about `7` days or sooner if hampers are mostly full
   - last done: unknown
-  - next job after completion: record the date and decide whether `7` days felt right
+  - today scope: wash, then move to dryer or hang wet clothes
+  - not planned yet: folding what comes out of the dryer
+  - next job after completion: record the date and decide whether `7` days felt right and whether folding wants its own task
 
 ## Daily plan
 
@@ -24,23 +26,23 @@ Start the household system with one real tracked task and tune it from actual li
 - if the hamper feels mostly full, move laundry_daily_wear from due soon to due
 
 ### Wednesday, March 18, 2026
-- do a 2-minute hamper check and decide whether laundry wants a Thursday or Friday slot
+- do `laundry_daily_wear` today: wash, then move clothes to dryer or hang wet clothes
+- do not make folding a hidden requirement for today's household win
 
 ### Thursday, March 19, 2026
-- preferred laundry window if timing is decent or the hamper is clearly mostly full
+- laundry catch-up window only if Wednesday slips
 
 ### Friday, March 20, 2026
-- laundry catch-up window if it did not happen Thursday
+- second laundry catch-up window if the wash cycle still did not happen
 
 ### Saturday, March 21, 2026
-- fold and put away if the load was washed late in the week; otherwise use this as an optional light home reset
+- optional fold and put away only if it sounds easy enough; otherwise leave folding unplanned and revisit whether it should become its own task
 
 ### Sunday, March 22, 2026
-- note whether the trial cadence felt right and whether laundry needs splitting later
+- note whether the trial cadence felt right and whether folding or other laundry categories need to be split later
 
 ## Rules for now
 
 - do not preload every possible chore
 - do not split towels blankets and special loads until the coarse version becomes obviously annoying
 - do not wait for a perfect last-done date before tracking a real due-soon task
-

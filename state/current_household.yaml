@@ -14,13 +14,18 @@ tracked_tasks:
     frequency_status: experimental
     threshold_signal: hamper_mostly_full
     last_done: unknown
-    current_signal: due_soon_hampers_getting_full
-    status: due_soon
+    current_signal: due_now_hampers_full_enough_and_today_is_the_wash_window
+    status: due
     effort: medium
     split_candidate: towels_bedding_and_special_loads_if_they_want_different_rhythms
+    current_cycle_plan:
+      today_scope: wash_and_move_to_dryer_or_hang_wet_clothes
+      folding_plan: not_planned_yet
+      completion_marker: washer_run_and_clothes_transferred_to_dryer_or_hung
     notes:
       - start_coarse_with_daily_wear_only
       - record_the_real_completion_date_and_then_judge_whether_seven_days_felt_right
+      - do_not_require_folding_to_count_this_cycle_as_completed
 
 task_candidates_not_yet_onboarded:
   - folding_laundry
@@ -29,4 +34,3 @@ task_candidates_not_yet_onboarded:
   - descale_electric_kettle
   - oil_cutting_boards
   - oil_wooden_spoons
-
