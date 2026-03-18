@@ -13,18 +13,18 @@ tracked_tasks:
     target_frequency_days: 7
     frequency_status: experimental
     threshold_signal: hamper_mostly_full
-    last_done: unknown
-    current_signal: due_now_hampers_full_enough_and_today_is_the_wash_window
-    status: due
+    last_done: 2026-03-18
+    current_signal: completed_today_wash_and_dry_or_hang_phase_done
+    status: fresh
     effort: medium
     split_candidate: towels_bedding_and_special_loads_if_they_want_different_rhythms
     current_cycle_plan:
-      today_scope: wash_and_move_to_dryer_or_hang_wet_clothes
+      today_scope: completed_on_2026-03-18_as_wash_and_dry_or_hang
       folding_plan: not_planned_yet
-      completion_marker: washer_run_and_clothes_transferred_to_dryer_or_hung
+      completion_marker: achieved_on_2026-03-18
     notes:
       - start_coarse_with_daily_wear_only
-      - record_the_real_completion_date_and_then_judge_whether_seven_days_felt_right
+      - real_completion_date_recorded_and_ready_for_cadence_check
       - do_not_require_folding_to_count_this_cycle_as_completed
 
 task_candidates_not_yet_onboarded:

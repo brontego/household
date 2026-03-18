@@ -4,7 +4,7 @@
 
 | Task | Trigger | Status | Last Done | Effort | Current note |
 | --- | --- | --- | --- | --- | --- |
-| laundry - daily wear | hybrid | due | unknown | medium | do today: wash, then dryer or hang wet clothes; folding is intentionally not planned yet |
+| laundry - daily wear | hybrid | fresh | 2026-03-18 | medium | completed as wash plus dryer or hang; folding is intentionally still not planned |
 
 ## Candidate tasks
 
