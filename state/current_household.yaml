@@ -1,0 +1,32 @@
+household:
+  system_name: household
+  operating_mode: incremental_task_onboarding
+  notes:
+    - start_with_real_tasks_that_are_actually_showing_up
+    - split_tasks_only_when_cadence_or_handling_meaningfully_differs
+
+tracked_tasks:
+  - id: laundry_daily_wear
+    label: laundry - daily wear
+    area: laundry
+    trigger_type: hybrid
+    target_frequency_days: 7
+    frequency_status: experimental
+    threshold_signal: hamper_mostly_full
+    last_done: unknown
+    current_signal: due_soon_hampers_getting_full
+    status: due_soon
+    effort: medium
+    split_candidate: towels_bedding_and_special_loads_if_they_want_different_rhythms
+    notes:
+      - start_coarse_with_daily_wear_only
+      - record_the_real_completion_date_and_then_judge_whether_seven_days_felt_right
+
+task_candidates_not_yet_onboarded:
+  - folding_laundry
+  - dishwasher_cycle
+  - bathroom_clean
+  - descale_electric_kettle
+  - oil_cutting_boards
+  - oil_wooden_spoons
+

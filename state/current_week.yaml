@@ -1,0 +1,22 @@
+week:
+  start_date: 2026-03-16
+  focus: onboard_the_household_module_with_one_real_task_and_keep_it_light
+  status: active
+
+priority_outcomes:
+  - get_the_first_real_recurring_task_into_the_system
+  - use_laundry_daily_wear_as_a_trial_case_for_hybrid_triggers
+  - publish_a_clean_snapshot_for_dross
+  - avoid_overbuilding_the_task_catalog_before_real_use_exists
+
+todo_updates:
+  - record_the_real_last_done_date_when_laundry_is_completed
+  - judge_whether_the_seven_day_trial_frequency_was_about_right
+  - note_whether_folding_needs_to_be_split_from_washing
+  - add_the_next_household_task_only_when_it_becomes_salient_enough_to_matter
+
+notes:
+  - one_real_task_is_better_than_a_big_theoretical_registry
+  - threshold_based_household_work_deserves_first_class_support
+  - due_soon_is_good_enough_even_when_last_done_is_unknown
+

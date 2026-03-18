@@ -1,0 +1,23 @@
+system: household
+week_of: 2026-03-16
+status: yellow
+next_required_update_by: 2026-03-22
+active_goals:
+  - onboard_household_as_a_real_module_without_overbuilding_it
+  - complete_the_first_trial_cycle_of_laundry_daily_wear_and_record_the_real_last_done_date
+  - let_dross_see_due_soon_household_work_through_a_clean_snapshot
+capacity_demand:
+  time_hours: 0.5
+  cognitive_load: low
+risks:
+  - household_tasks_can_stay_in_guilt_space_if_they_are_not_onboarded_when_first_noticed
+  - oversplitting_laundry_too_early_could_make_the_system_more_annoying_than_helpful
+  - unknown_last_done_dates_make_the_first_cycle_fuzzier_but_should_not_block_tracking
+requests_for_other_systems:
+  - oversystem: surface_due_soon_household_work_in_weekly_coordination_and_day_views_when_it_is_relevant
+  - oversystem: keep_household_lightweight_until_real_usage_patterns_exist
+lessons_candidate:
+  - household_tasks_need_calendar_threshold_and_hybrid_trigger_support
+  - onboarding_tasks_as_they_are_noticed_is_less_frictionful_than_prebuilding_a_full_chore_catalog
+  - laundry_is_a_good_first_trial_task_because_it_is_obvious_recurring_and_easy_to_retime
+
