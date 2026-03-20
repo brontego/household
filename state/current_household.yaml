@@ -26,6 +26,25 @@ tracked_tasks:
       - start_coarse_with_daily_wear_only
       - real_completion_date_recorded_and_ready_for_cadence_check
       - do_not_require_folding_to_count_this_cycle_as_completed
+  - id: kitchen_reset
+    label: kitchen reset
+    area: kitchen
+    trigger_type: calendar
+    target_frequency_days: 7
+    frequency_status: experimental
+    last_done: unknown
+    current_signal: due_this_weekend_for_a_low_to_medium_reset_and_next_week_setup
+    status: due
+    effort: low_to_medium
+    split_candidate: dishwasher_cycle_and_counter_reset_if_their_cadences_start_differing
+    current_cycle_plan:
+      today_scope: saturday_kitchen_reset_plus_household_weekly_updates_and_next_week_planning
+      shopping_note: coordinate_with_mealplanning_and_only_shop_if_the_planning_pass_says_it_is_needed
+      completion_marker: kitchen_reset_done_and_household_plan_refreshed
+    notes:
+      - onboarded_incrementally_when_the_need_became_real
+      - keep_the_reset_low_to_medium_not_a_whole_apartment_deep_clean
+      - let_this_run_for_a_few_cycles_before_deciding_if_seven_days_is_the_right_cadence
 
 task_candidates_not_yet_onboarded:
   - folding_laundry

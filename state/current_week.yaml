@@ -1,17 +1,20 @@
 week:
   start_date: 2026-03-16
-  focus: onboard_the_household_module_with_one_real_task_and_keep_it_light
+  focus: keep_household_light_but_real_by_adding_kitchen_reset_and_using_saturday_as_the_weekly_reset_block
   status: active
 
 priority_outcomes:
-  - get_the_first_real_recurring_task_into_the_system
-  - use_laundry_daily_wear_as_a_trial_case_for_hybrid_triggers
+  - keep_laundry_daily_wear_as_a_clean_first_trial_task
+  - onboard_kitchen_reset_as_the_second_real_tracked_task
+  - use_saturday_for_household_updates_and_next_week_planning
   - publish_a_clean_snapshot_for_dross
   - avoid_overbuilding_the_task_catalog_before_real_use_exists
 
 todo_updates:
   - judge_whether_the_seven_day_trial_frequency_was_about_right
+  - judge_whether_kitchen_reset_wants_a_weekly_cadence_after_a_few_real_cycles
   - note_whether_folding_needs_to_be_split_from_washing
+  - note_whether_dishwasher_or_counter_reset_deserve_separate_tracking_later
   - add_the_next_household_task_only_when_it_becomes_salient_enough_to_matter
   - keep_the_completion_definition_as_wash_plus_dry_or_hang_not_fold_unless_you_explicitly_change_it
 
@@ -20,3 +23,4 @@ notes:
   - threshold_based_household_work_deserves_first_class_support
   - due_soon_is_good_enough_even_when_last_done_is_unknown
   - 2026_03_18_laundry_was_completed_as_wash_plus_dry_or_hang_with_folding_explicitly_left_unplanned
+  - 2026_03_21_is_now_the_first_real_kitchen_reset_and_household_weekly_update_block

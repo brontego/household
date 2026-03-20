@@ -4,9 +4,9 @@ Week of March 16, 2026
 
 ## Objective
 
-Start the household system with one real tracked task and tune it from actual life instead of theoretical perfection.
+Keep the household system light but real by onboarding the next salient task and using Saturday as a weekly reset and planning block.
 
-## This week's active task
+## This week's active tasks
 
 - `laundry_daily_wear`
   - status: `fresh`
@@ -16,6 +16,14 @@ Start the household system with one real tracked task and tune it from actual li
   - today result: wash completed and clothes moved to dryer or hang as planned
   - not planned yet: folding what comes out of the dryer
   - next job after completion: decide whether `7` days felt right and whether folding wants its own task
+- `kitchen_reset`
+  - status: `due`
+  - trigger: `calendar`
+  - trial cadence: about every `7` days
+  - last done: `unknown`
+  - this cycle's intended scope: low-to-medium kitchen reset plus household weekly updates and next-week planning
+  - shopping stance: coordinate with mealplanning and only shop if that planning pass says coverage is weak enough to justify it
+  - next job after completion: decide whether `7` days feels right and whether dishwasher or counters want their own task later
 
 ## Daily plan
 
@@ -36,10 +44,14 @@ Start the household system with one real tracked task and tune it from actual li
 - no active laundry ask; let the first cycle settle
 
 ### Saturday, March 21, 2026
-- optional fold and put away only if it sounds easy enough; otherwise leave folding unplanned and revisit whether it should become its own task
+- do the `kitchen_reset` at low to medium difficulty
+- refresh the household weekly plan and next-week notes
+- coordinate shopping only if mealplanning says a real errand is needed
+- optional fold and put away only if it sounds easy enough; otherwise leave folding unplanned
 
 ### Sunday, March 22, 2026
-- note whether the trial cadence felt right and whether folding or other laundry categories need to be split later
+- make sure the refreshed household snapshot is ready for Dross
+- note whether the kitchen reset cadence felt right and whether folding or other laundry categories need to be split later
 
 ## Rules for now
 
