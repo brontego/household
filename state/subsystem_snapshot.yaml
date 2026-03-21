@@ -1,10 +1,9 @@
 system: household
 week_of: 2026-03-16
-status: yellow
+status: green
 next_required_update_by: 2026-03-22
 active_goals:
-  - onboard_kitchen_reset_as_the_second_real_task_without_turning_household_into_a_massive_chore_catalog
-  - use_saturday_for_a_low_to_medium_kitchen_reset_plus_household_weekly_updates_and_next_week_planning
+  - use_the_real_2026_03_21_kitchen_reset_completion_date_to_test_whether_about_7_days_feels_right
   - use_the_real_2026_03_18_laundry_completion_date_to_test_whether_about_7_days_feels_right
   - keep_folding_out_of_scope_until_it_is_either_chosen_or_formally_onboarded
 capacity_demand:
@@ -25,3 +24,4 @@ lessons_candidate:
   - laundry_is_a_good_first_trial_task_because_it_is_obvious_recurring_and_easy_to_retime
   - household_tasks_sometimes_need_a_completion_definition_so_they_do_not_expand_silently_midstream
   - a_kitchen_reset_is_a_good_second_task_because_it_pairs_physical_reset_with_next_week_planning
+  - low_to_medium_scope_makes_weekly_kitchen_reset_more_likely_to_repeat_than_a_deep_clean_standard

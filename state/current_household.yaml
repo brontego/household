@@ -32,19 +32,20 @@ tracked_tasks:
     trigger_type: calendar
     target_frequency_days: 7
     frequency_status: experimental
-    last_done: unknown
-    current_signal: due_this_weekend_for_a_low_to_medium_reset_and_next_week_setup
-    status: due
+    last_done: 2026-03-21
+    current_signal: completed_today_as_a_low_to_medium_reset_with_weekly_updates_and_next_week_setup
+    status: fresh
     effort: low_to_medium
     split_candidate: dishwasher_cycle_and_counter_reset_if_their_cadences_start_differing
     current_cycle_plan:
-      today_scope: saturday_kitchen_reset_plus_household_weekly_updates_and_next_week_planning
+      today_scope: completed_on_2026-03-21_as_saturday_kitchen_reset_plus_household_weekly_updates_and_next_week_planning
       shopping_note: coordinate_with_mealplanning_and_only_shop_if_the_planning_pass_says_it_is_needed
-      completion_marker: kitchen_reset_done_and_household_plan_refreshed
+      completion_marker: achieved_on_2026-03-21
     notes:
       - onboarded_incrementally_when_the_need_became_real
       - keep_the_reset_low_to_medium_not_a_whole_apartment_deep_clean
       - let_this_run_for_a_few_cycles_before_deciding_if_seven_days_is_the_right_cadence
+      - first_real_completion_date_recorded_and_ready_for_cadence_check
 
 task_candidates_not_yet_onboarded:
   - folding_laundry

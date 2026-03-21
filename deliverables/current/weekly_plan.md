@@ -17,11 +17,11 @@ Keep the household system light but real by onboarding the next salient task and
   - not planned yet: folding what comes out of the dryer
   - next job after completion: decide whether `7` days felt right and whether folding wants its own task
 - `kitchen_reset`
-  - status: `due`
+  - status: `fresh`
   - trigger: `calendar`
   - trial cadence: about every `7` days
-  - last done: `unknown`
-  - this cycle's intended scope: low-to-medium kitchen reset plus household weekly updates and next-week planning
+  - last done: `2026-03-21`
+  - this cycle's result: completed as a low-to-medium kitchen reset plus household weekly updates and next-week planning
   - shopping stance: coordinate with mealplanning and only shop if that planning pass says coverage is weak enough to justify it
   - next job after completion: decide whether `7` days feels right and whether dishwasher or counters want their own task later
 
@@ -44,13 +44,13 @@ Keep the household system light but real by onboarding the next salient task and
 - no active laundry ask; let the first cycle settle
 
 ### Saturday, March 21, 2026
-- do the `kitchen_reset` at low to medium difficulty
-- refresh the household weekly plan and next-week notes
-- coordinate shopping only if mealplanning says a real errand is needed
+- completed `kitchen_reset` at low to medium difficulty
+- refreshed the household weekly plan and next-week notes
+- no shopping errand required from Chef
 - optional fold and put away only if it sounds easy enough; otherwise leave folding unplanned
 
 ### Sunday, March 22, 2026
-- make sure the refreshed household snapshot is ready for Dross
+- make sure the refreshed household snapshot stays ready for Dross
 - note whether the kitchen reset cadence felt right and whether folding or other laundry categories need to be split later
 
 ## Rules for now
