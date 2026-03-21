@@ -46,11 +46,45 @@ tracked_tasks:
       - keep_the_reset_low_to_medium_not_a_whole_apartment_deep_clean
       - let_this_run_for_a_few_cycles_before_deciding_if_seven_days_is_the_right_cadence
       - first_real_completion_date_recorded_and_ready_for_cadence_check
+  - id: trash_takeout
+    label: trash takeout
+    area: kitchen_and_general
+    trigger_type: threshold
+    target_frequency_days: null
+    frequency_status: experimental
+    threshold_signal: bins_or_bag_full_enough_to_be_real
+    last_done: unknown
+    current_signal: planned_for_2026_03_22
+    status: due
+    effort: low
+    split_candidate: recycling_if_its_cadence_or_rules_start_differing
+    current_cycle_plan:
+      today_scope: take_out_trash_on_2026_03_22
+      completion_marker: bags_out_and_bins_reset
+    notes:
+      - onboarded_when_tomorrows_need_became_explicit
+      - keep_the_first_version_simple
+  - id: bathroom_clean
+    label: bathroom clean
+    area: bathroom
+    trigger_type: calendar
+    target_frequency_days: 7
+    frequency_status: experimental
+    last_done: unknown
+    current_signal: planned_for_2026_03_22
+    status: due
+    effort: medium
+    split_candidate: toilet_sink_mirror_and_shower_if_the_scope_starts_feeling_too_lumpy
+    current_cycle_plan:
+      today_scope: clean_the_bathroom_on_2026_03_22
+      completion_marker: bathroom_reset_done
+    notes:
+      - onboarded_when_the_user_named_it_as_a_real_sunday_task
+      - let_the_first_few_cycles_teach_whether_weekly_is_the_right_cadence
 
 task_candidates_not_yet_onboarded:
   - folding_laundry
   - dishwasher_cycle
-  - bathroom_clean
   - descale_electric_kettle
   - oil_cutting_boards
   - oil_wooden_spoons

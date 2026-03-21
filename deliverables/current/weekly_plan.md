@@ -24,6 +24,20 @@ Keep the household system light but real by onboarding the next salient task and
   - this cycle's result: completed as a low-to-medium kitchen reset plus household weekly updates and next-week planning
   - shopping stance: coordinate with mealplanning and only shop if that planning pass says coverage is weak enough to justify it
   - next job after completion: decide whether `7` days feels right and whether dishwasher or counters want their own task later
+- `trash_takeout`
+  - status: `due`
+  - trigger: `threshold`
+  - trial cadence: `as needed`
+  - last done: `unknown`
+  - this cycle's intended scope: take out trash and reset bins
+  - next job after completion: decide whether trash and recycling should split later
+- `bathroom_clean`
+  - status: `due`
+  - trigger: `calendar`
+  - trial cadence: about every `7` days
+  - last done: `unknown`
+  - this cycle's intended scope: standard bathroom reset, not perfection work
+  - next job after completion: decide whether weekly feels right and whether bathroom subtasks need splitting later
 
 ## Daily plan
 
@@ -50,6 +64,8 @@ Keep the household system light but real by onboarding the next salient task and
 - optional fold and put away only if it sounds easy enough; otherwise leave folding unplanned
 
 ### Sunday, March 22, 2026
+- do `trash_takeout`
+- do `bathroom_clean`
 - make sure the refreshed household snapshot stays ready for Dross
 - note whether the kitchen reset cadence felt right and whether folding or other laundry categories need to be split later
 
