@@ -17,6 +17,21 @@ Turn household maintenance into a lightweight operating system that can:
 - Use `experimental` frequencies until at least one or two real cycles exist.
 - If a task is too big or annoying, split it after observing the pain point.
 
+## Method for now
+
+Use low-management automation only where the system already has enough information to be honest.
+
+- Derive `fresh`, `due_soon`, `due`, and `overdue` from `last_done + target_frequency_days` for `calendar` and `hybrid` tasks.
+- Derive a rough `next_due_estimate` when a task has both a real completion date and a usable cadence.
+- Build the weekly candidate list from task status, effort, and any live `current_signal`.
+- Carry unfinished due tasks forward until they are completed or consciously rescoped.
+- After one to two real cycles, prompt a cadence review instead of assuming the first frequency guess was right.
+- When other systems are heavy, prefer one low-to-medium household task instead of stacking several medium tasks.
+- For threshold chores with backlog potential, use a simple manual severity read instead of a complex tracker:
+  one waiting cycle is normal due pressure, repeated cycles without clearing the task means the task has started to sprawl.
+
+Do not fake precision for threshold tasks. Trash fullness, hamper fullness, and similar signals still need a manual reality check.
+
 ## Weekly cadence
 
 1. Update `state/current_household.yaml` when a task is noticed or completed.
@@ -45,3 +60,4 @@ Turn household maintenance into a lightweight operating system that can:
 - Is it calendar-based, threshold-based, or hybrid?
 - Is the current frequency only a trial?
 - Would splitting it later help, or is that premature?
+- What can be honestly derived automatically, and what still needs a manual reality check?

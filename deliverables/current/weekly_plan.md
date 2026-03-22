@@ -25,11 +25,11 @@ Keep the household system light but real by onboarding the next salient task and
   - shopping stance: coordinate with mealplanning and only shop if that planning pass says coverage is weak enough to justify it
   - next job after completion: decide whether `7` days feels right and whether dishwasher or counters want their own task later
 - `trash_takeout`
-  - status: `due`
+  - status: `fresh`
   - trigger: `threshold`
   - trial cadence: `as needed`
-  - last done: `unknown`
-  - this cycle's intended scope: take out trash and reset bins
+  - last done: `2026-03-22`
+  - this cycle's result: completed as trash takeout plus bin reset
   - next job after completion: decide whether trash and recycling should split later
 - `bathroom_clean`
   - status: `due`
@@ -38,6 +38,21 @@ Keep the household system light but real by onboarding the next salient task and
   - last done: `unknown`
   - this cycle's intended scope: standard bathroom reset, not perfection work
   - next job after completion: decide whether weekly feels right and whether bathroom subtasks need splitting later
+- `folding_laundry`
+  - status: `due`
+  - trigger: `hybrid`
+  - trial cadence: about every `7` days or sooner when clean dry clothes are waiting
+  - last done: `unknown`
+  - this cycle's intended scope: fold and put away the waiting laundry
+  - backlog note: one waiting load is normal due pressure; repeated wash cycles without folding should raise urgency
+  - next job after completion: decide whether the hybrid rule feels right and whether putting away ever needs to split off
+- `descale_electric_kettle`
+  - status: `due`
+  - trigger: `calendar`
+  - trial cadence: about every `30` days for now
+  - last done: `unknown`
+  - this cycle's intended scope: descale and rinse the kettle so it returns to normal use cleanly
+  - next job after completion: decide whether about `30` days feels too frequent, too slow, or about right
 
 ## Daily plan
 
@@ -64,10 +79,17 @@ Keep the household system light but real by onboarding the next salient task and
 - optional fold and put away only if it sounds easy enough; otherwise leave folding unplanned
 
 ### Sunday, March 22, 2026
-- do `trash_takeout`
+- completed `trash_takeout`
 - do `bathroom_clean`
-- make sure the refreshed household snapshot stays ready for Dross
+- refreshed the household snapshot after trash completion so Dross stays current
 - note whether the kitchen reset cadence felt right and whether folding or other laundry categories need to be split later
+
+## Next up
+
+### Monday, March 23, 2026
+- do `folding_laundry`
+- do `descale_electric_kettle`
+- if `bathroom_clean` is still unfinished at day end Sunday, carry it forward instead of letting it disappear
 
 ## Rules for now
 

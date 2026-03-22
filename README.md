@@ -40,6 +40,24 @@ Current first tracked task:
 
 - `laundry_daily_wear`
 
+## Automation bias for now
+
+The current household method should automate only what can be derived from facts you are already likely to give:
+
+- derive `fresh`, `due_soon`, `due`, and `overdue` from `last_done + target_frequency_days` for `calendar` and `hybrid` tasks
+- derive a rough `next_due_estimate` when the task has enough date data
+- surface a weekly candidate list from status, effort, and current signal
+- carry unfinished tasks forward until they are done or consciously rescoped
+- prompt cadence review after one to two real cycles
+
+What the system should **not** pretend to know yet:
+
+- fully automatic threshold detection
+- supplies tracking
+- room-by-room cleanliness state
+
+Threshold tasks like trash or hamper fullness still need a manual reality check.
+
 ## How to use the system
 
 1. Add or update live task facts in `state/current_household.yaml`.
