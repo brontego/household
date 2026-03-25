@@ -9,13 +9,12 @@ Keep the household system light but real by onboarding the next salient task and
 ## This week's active tasks
 
 - `laundry_daily_wear`
-  - status: `fresh`
+  - status: `due`
   - trigger: `hybrid`
   - trial cadence: about `7` days or sooner if hampers are mostly full
   - last done: `2026-03-18`
-  - today result: wash completed and clothes moved to dryer or hang as planned
-  - not planned yet: folding what comes out of the dryer
-  - next job after completion: decide whether `7` days felt right and whether folding wants its own task
+  - current cycle: a new load was started on `2026-03-23`, so this task is active again before the first `7` day estimate fully elapsed
+  - next job after completion: decide whether `7` days felt too slow as a first cadence guess and whether folding wants its own durable rhythm
 - `kitchen_reset`
   - status: `fresh`
   - trigger: `calendar`
@@ -32,26 +31,26 @@ Keep the household system light but real by onboarding the next salient task and
   - this cycle's result: completed as trash takeout plus bin reset
   - next job after completion: decide whether trash and recycling should split later
 - `bathroom_clean`
-  - status: `due`
+  - status: `fresh`
   - trigger: `calendar`
   - trial cadence: about every `7` days
-  - last done: `unknown`
-  - this cycle's intended scope: standard bathroom reset, not perfection work
+  - last done: `2026-03-23`
+  - this cycle's result: completed as a carried-forward bathroom reset, not perfection work
   - next job after completion: decide whether weekly feels right and whether bathroom subtasks need splitting later
 - `folding_laundry`
-  - status: `due`
+  - status: `fresh`
   - trigger: `hybrid`
   - trial cadence: about every `7` days or sooner when clean dry clothes are waiting
-  - last done: `unknown`
-  - this cycle's intended scope: fold and put away the waiting laundry
-  - backlog note: one waiting load is normal due pressure; repeated wash cycles without folding should raise urgency
+  - last done: `2026-03-23`
+  - this cycle's result: folded and put away the waiting laundry
+  - backlog note: a new load was started right after completion, so folding will likely become real again soon
   - next job after completion: decide whether the hybrid rule feels right and whether putting away ever needs to split off
 - `descale_electric_kettle`
-  - status: `due`
+  - status: `fresh`
   - trigger: `calendar`
   - trial cadence: about every `30` days for now
-  - last done: `unknown`
-  - this cycle's intended scope: descale and rinse the kettle so it returns to normal use cleanly
+  - last done: `2026-03-23`
+  - this cycle's result: kettle descaled and rinsed back to normal use
   - next job after completion: decide whether about `30` days feels too frequent, too slow, or about right
 
 ## Daily plan
@@ -80,16 +79,17 @@ Keep the household system light but real by onboarding the next salient task and
 
 ### Sunday, March 22, 2026
 - completed `trash_takeout`
-- do `bathroom_clean`
+- `bathroom_clean` did not get done Sunday and was consciously carried into Monday instead of disappearing
 - refreshed the household snapshot after trash completion so Dross stays current
 - note whether the kitchen reset cadence felt right and whether folding or other laundry categories need to be split later
 
 ## Next up
 
 ### Monday, March 23, 2026
-- do `folding_laundry`
-- do `descale_electric_kettle`
-- if `bathroom_clean` is still unfinished at day end Sunday, carry it forward instead of letting it disappear
+- completed `bathroom_clean` as the carried-forward bathroom reset
+- completed `folding_laundry`
+- completed `descale_electric_kettle`
+- started a new laundry load, so `folding_laundry` will likely become real again soon
 
 ## Rules for now
 
