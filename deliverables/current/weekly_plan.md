@@ -1,98 +1,51 @@
 # Weekly Household Plan
 
-Week of March 16, 2026
+Week of March 23, 2026
 
 ## Objective
 
-Keep the household system light but real by onboarding the next salient task and using Saturday as a weekly reset and planning block.
+Keep Household light and real by queuing only the two tasks that are actually showing up this weekend: laundry and kitchen cleanup.
 
-## This week's active tasks
+## Current active tasks
 
 - `laundry_daily_wear`
   - status: `due`
   - trigger: `hybrid`
-  - trial cadence: about `7` days or sooner if hampers are mostly full
+  - trial cadence: about `7` days or sooner if the hamper or current cycle makes it real
   - last done: `2026-03-18`
-  - current cycle: a new load was started on `2026-03-23`, so this task is active again before the first `7` day estimate fully elapsed
-  - next job after completion: decide whether `7` days felt too slow as a first cadence guess and whether folding wants its own durable rhythm
+  - current cycle: a load started on `2026-03-23` is still the live laundry story
+  - today's scope: finish wash plus dry or hang; do not force folding into the same completion if it does not naturally fit
 - `kitchen_reset`
-  - status: `fresh`
+  - status: `due`
   - trigger: `calendar`
   - trial cadence: about every `7` days
   - last done: `2026-03-21`
-  - this cycle's result: completed as a low-to-medium kitchen reset plus household weekly updates and next-week planning
-  - shopping stance: coordinate with mealplanning and only shop if that planning pass says coverage is weak enough to justify it
-  - next job after completion: decide whether `7` days feels right and whether dishwasher or counters want their own task later
-- `trash_takeout`
-  - status: `fresh`
-  - trigger: `threshold`
-  - trial cadence: `as needed`
-  - last done: `2026-03-22`
-  - this cycle's result: completed as trash takeout plus bin reset
-  - next job after completion: decide whether trash and recycling should split later
-- `bathroom_clean`
-  - status: `fresh`
-  - trigger: `calendar`
-  - trial cadence: about every `7` days
-  - last done: `2026-03-23`
-  - this cycle's result: completed as a carried-forward bathroom reset, not perfection work
-  - next job after completion: decide whether weekly feels right and whether bathroom subtasks need splitting later
-- `folding_laundry`
-  - status: `fresh`
-  - trigger: `hybrid`
-  - trial cadence: about every `7` days or sooner when clean dry clothes are waiting
-  - last done: `2026-03-23`
-  - this cycle's result: folded and put away the waiting laundry
-  - backlog note: a new load was started right after completion, so folding will likely become real again soon
-  - next job after completion: decide whether the hybrid rule feels right and whether putting away ever needs to split off
-- `descale_electric_kettle`
-  - status: `fresh`
-  - trigger: `calendar`
-  - trial cadence: about every `30` days for now
-  - last done: `2026-03-23`
-  - this cycle's result: kettle descaled and rinsed back to normal use
-  - next job after completion: decide whether about `30` days feels too frequent, too slow, or about right
+  - today's scope: low-to-medium kitchen cleanup reset, not a whole-apartment deep clean
+  - shopping stance: let Chef determine whether a real shopping errand exists before Household invents one
 
-## Daily plan
+## Background tasks that are currently fresh
 
-### Monday, March 16, 2026
-- no forced household task; just notice what becomes real enough to track
+- `trash_takeout`: last done `2026-03-22`
+- `bathroom_clean`: last done `2026-03-23`
+- `folding_laundry`: last done `2026-03-23`, but likely to return once the current load finishes
+- `descale_electric_kettle`: last done `2026-03-23`
 
-### Tuesday, March 17, 2026
-- if the hamper feels mostly full, move laundry_daily_wear from due soon to due
+## Weekend plan
 
-### Wednesday, March 18, 2026
-- completed `laundry_daily_wear` as wash plus dryer or hang
-- keep folding out of scope unless it is explicitly chosen later
+### Saturday, March 28, 2026
 
-### Thursday, March 19, 2026
-- no active laundry ask after Wednesday completion; only intervene if something unexpectedly went wrong
+- queue `laundry_daily_wear`
+- queue `kitchen_reset`
+- keep the scope small enough that both tasks can count as a real win
 
-### Friday, March 20, 2026
-- no active laundry ask; let the first cycle settle
+### Sunday, March 29, 2026
 
-### Saturday, March 21, 2026
-- completed `kitchen_reset` at low to medium difficulty
-- refreshed the household weekly plan and next-week notes
-- no shopping errand required from Chef
-- optional fold and put away only if it sounds easy enough; otherwise leave folding unplanned
-
-### Sunday, March 22, 2026
-- completed `trash_takeout`
-- `bathroom_clean` did not get done Sunday and was consciously carried into Monday instead of disappearing
-- refreshed the household snapshot after trash completion so Dross stays current
-- note whether the kitchen reset cadence felt right and whether folding or other laundry categories need to be split later
-
-## Next up
-
-### Monday, March 23, 2026
-- completed `bathroom_clean` as the carried-forward bathroom reset
-- completed `folding_laundry`
-- completed `descale_electric_kettle`
-- started a new laundry load, so `folding_laundry` will likely become real again soon
+- if laundry finishes and clean dry clothes are waiting, let `folding_laundry` become the next real task
+- otherwise do not invent extra chores
 
 ## Rules for now
 
 - do not preload every possible chore
 - do not split towels blankets and special loads until the coarse version becomes obviously annoying
-- do not wait for a perfect last-done date before tracking a real due-soon task
+- do not let kitchen cleanup silently expand into a full apartment reset
+- do not let folding become a hidden requirement for every laundry completion

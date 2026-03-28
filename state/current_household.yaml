@@ -29,20 +29,21 @@ tracked_tasks:
     frequency_status: experimental
     threshold_signal: hamper_mostly_full
     last_done: 2026-03-18
-    current_signal: new_load_started_on_2026_03_23_current_cycle_in_motion
+    current_signal: user_requeued_on_2026_03_28_new_load_still_needs_completion
     status: due
     effort: medium
     next_due_estimate: 2026-03-25
     split_candidate: towels_bedding_and_special_loads_if_they_want_different_rhythms
     current_cycle_plan:
-      today_scope: new_load_started_on_2026_03_23_and_needs_wash_plus_dry_or_hang_completion
-      folding_plan: expect_another_folding_pass_when_this_cycle_finishes
+      today_scope: queued_on_2026_03_28_for_wash_plus_dry_or_hang_completion_of_the_current_cycle
+      folding_plan: if_this_cycle_finishes_cleanly_expect_folding_laundry_to_become_real_next
       completion_marker: pending_current_cycle_completion
     notes:
       - start_coarse_with_daily_wear_only
       - real_completion_date_recorded_and_ready_for_cadence_check
       - do_not_require_folding_to_count_this_cycle_as_completed
       - starting_a_new_load_before_the_7_day_estimate_is_useful_cadence_evidence_not_a_problem
+      - user_explicitly_requeued_laundry_on_2026_03_28
   - id: kitchen_reset
     label: kitchen reset
     area: kitchen
@@ -50,20 +51,21 @@ tracked_tasks:
     target_frequency_days: 7
     frequency_status: experimental
     last_done: 2026-03-21
-    current_signal: completed_today_as_a_low_to_medium_reset_with_weekly_updates_and_next_week_setup
-    status: fresh
+    current_signal: user_requeued_on_2026_03_28_for_low_to_medium_kitchen_cleanup
+    status: due
     effort: low_to_medium
     next_due_estimate: 2026-03-28
     split_candidate: dishwasher_cycle_and_counter_reset_if_their_cadences_start_differing
     current_cycle_plan:
-      today_scope: completed_on_2026-03-21_as_saturday_kitchen_reset_plus_household_weekly_updates_and_next_week_planning
+      today_scope: queued_on_2026_03_28_for_a_low_to_medium_kitchen_cleanup_reset_not_a_deep_clean
       shopping_note: coordinate_with_mealplanning_and_only_shop_if_the_planning_pass_says_it_is_needed
-      completion_marker: achieved_on_2026-03-21
+      completion_marker: pending_2026_03_28_reset
     notes:
       - onboarded_incrementally_when_the_need_became_real
       - keep_the_reset_low_to_medium_not_a_whole_apartment_deep_clean
       - let_this_run_for_a_few_cycles_before_deciding_if_seven_days_is_the_right_cadence
       - first_real_completion_date_recorded_and_ready_for_cadence_check
+      - user_explicitly_requeued_kitchen_cleanup_on_2026_03_28
   - id: trash_takeout
     label: trash takeout
     area: kitchen_and_general
