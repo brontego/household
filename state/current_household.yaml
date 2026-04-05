@@ -3,19 +3,9 @@ household:
   operating_mode: incremental_task_onboarding
   automation_method:
     default_policy: low_management_automation_from_facts_already_recorded
-    automate_now:
-      - derive_due_status_for_calendar_and_hybrid_tasks_from_last_done_and_target_frequency_days
-      - derive_next_due_estimate_when_a_task_has_a_real_completion_date_and_usable_cadence
-      - surface_weekly_candidates_from_status_effort_and_current_signal
-      - carry_forward_unfinished_tasks_until_done_or_consciously_rescoped
-      - prompt_cadence_review_after_one_to_two_real_cycles
     planning_bias:
-      - when_other_systems_are_heavy_prefer_one_low_to_medium_household_task
-      - threshold_tasks_still_need_manual_reality_checks_like_hamper_fullness_or_bins_being_real
-    do_not_try_yet:
-      - fully_automatic_threshold_detection
-      - supplies_tracking
-      - room_cleanliness_state
+      - during_reboot_weeks_prefer_two_real_tasks_over_a_large_chore_board
+      - threshold_tasks_still_need_manual_reality_checks
   notes:
     - start_with_real_tasks_that_are_actually_showing_up
     - split_tasks_only_when_cadence_or_handling_meaningfully_differs
@@ -29,43 +19,35 @@ tracked_tasks:
     frequency_status: experimental
     threshold_signal: hamper_mostly_full
     last_done: 2026-03-18
-    current_signal: user_requeued_on_2026_03_28_new_load_still_needs_completion
-    status: due
+    current_signal: next_daily_wear_load_is_planned_for_2026_04_05_and_user_intends_to_fold_it_the_same_day
+    status: active
     effort: medium
-    next_due_estimate: 2026-03-25
-    split_candidate: towels_bedding_and_special_loads_if_they_want_different_rhythms
+    next_due_estimate: 2026-04-05
     current_cycle_plan:
-      today_scope: queued_on_2026_03_28_for_wash_plus_dry_or_hang_completion_of_the_current_cycle
-      folding_plan: if_this_cycle_finishes_cleanly_expect_folding_laundry_to_become_real_next
-      completion_marker: pending_current_cycle_completion
+      today_scope: wash_plus_dry_or_hang_counts_as_completion_do_not_require_folding
+      completion_marker: finish_the_current_cycle_cleanly
     notes:
       - start_coarse_with_daily_wear_only
-      - real_completion_date_recorded_and_ready_for_cadence_check
       - do_not_require_folding_to_count_this_cycle_as_completed
-      - starting_a_new_load_before_the_7_day_estimate_is_useful_cadence_evidence_not_a_problem
-      - user_explicitly_requeued_laundry_on_2026_03_28
+      - do_not_let_leftover_folding_be_misread_as_proof_that_the_current_load_already_happened
   - id: kitchen_reset
     label: kitchen reset
     area: kitchen
     trigger_type: calendar
     target_frequency_days: 7
     frequency_status: experimental
-    last_done: 2026-03-21
-    current_signal: user_requeued_on_2026_03_28_for_low_to_medium_kitchen_cleanup
-    status: due
+    last_done: 2026-04-04
+    current_signal: completed_during_the_2026_04_04_system_update_block_with_low_to_medium_scope
+    status: fresh
     effort: low_to_medium
-    next_due_estimate: 2026-03-28
-    split_candidate: dishwasher_cycle_and_counter_reset_if_their_cadences_start_differing
+    next_due_estimate: 2026-04-11
     current_cycle_plan:
-      today_scope: queued_on_2026_03_28_for_a_low_to_medium_kitchen_cleanup_reset_not_a_deep_clean
-      shopping_note: coordinate_with_mealplanning_and_only_shop_if_the_planning_pass_says_it_is_needed
-      completion_marker: pending_2026_03_28_reset
+      today_scope: low_to_medium_kitchen_cleanup_reset_not_a_deep_clean
+      shopping_note: coordinate_with_mealplanning_before_inventing_any_errand
+      completion_marker: counters_sink_and_obvious_dishes_reset
     notes:
-      - onboarded_incrementally_when_the_need_became_real
       - keep_the_reset_low_to_medium_not_a_whole_apartment_deep_clean
       - let_this_run_for_a_few_cycles_before_deciding_if_seven_days_is_the_right_cadence
-      - first_real_completion_date_recorded_and_ready_for_cadence_check
-      - user_explicitly_requeued_kitchen_cleanup_on_2026_03_28
   - id: trash_takeout
     label: trash takeout
     area: kitchen_and_general
@@ -74,62 +56,87 @@ tracked_tasks:
     frequency_status: experimental
     threshold_signal: bins_or_bag_full_enough_to_be_real
     last_done: 2026-03-22
-    current_signal: completed_today_with_bags_out_and_bins_reset
-    status: fresh
+    current_signal: threshold_only_after_the_carryover_top_two_pressure_drops
+    status: monitor
     effort: low
-    carry_forward: false
-    split_candidate: recycling_if_its_cadence_or_rules_start_differing
-    current_cycle_plan:
-      today_scope: completed_on_2026_03_22_as_trash_takeout_and_bin_reset
-      completion_marker: achieved_on_2026_03_22_bags_out_and_bins_reset
-    notes:
-      - onboarded_when_tomorrows_need_became_explicit
-      - keep_the_first_version_simple
-      - first_real_completion_date_recorded_and_ready_for_cadence_check
   - id: bathroom_clean
     label: bathroom clean
     area: bathroom
     trigger_type: calendar
     target_frequency_days: 7
     frequency_status: experimental
-    last_done: 2026-03-23
-    current_signal: completed_today_as_a_carry_forward_bathroom_reset
+    last_done: 2026-04-04
+    current_signal: completed_during_the_2026_04_04_system_update_block_without_needing_promotion_into_a_deep_clean
     status: fresh
     effort: medium
-    next_due_estimate: 2026-03-30
-    weekly_candidate: false
-    carry_forward: true
-    split_candidate: toilet_sink_mirror_and_shower_if_the_scope_starts_feeling_too_lumpy
-    current_cycle_plan:
-      today_scope: completed_on_2026_03_23_as_the_carried_forward_bathroom_reset
-      completion_marker: achieved_on_2026_03_23_bathroom_reset_done
+    next_due_estimate: 2026-04-11
     notes:
-      - onboarded_when_the_user_named_it_as_a_real_sunday_task
-      - let_the_first_few_cycles_teach_whether_weekly_is_the_right_cadence
+      - keep_the_scope_standard_so_weekly_testing_stays_honest
+  - id: clean_shoe_midsoles
+    label: clean shoe midsoles
+    area: entry_and_footwear
+    trigger_type: calendar
+    target_frequency_days: 7
+    frequency_status: experimental
+    last_done: null
+    current_signal: new_small_weekly_upkeep_task_secondary_to_the_current_carryover_work
+    status: fresh
+    effort: low
+    next_due_estimate: 2026-04-12
+    current_cycle_plan:
+      today_scope: wipe_or_scrub_the_midsoles_only
+      completion_marker: midsoles_look_reset_without_turning_it_into_full_shoe_restoration
+    notes:
+      - keep_this_as_small_weekly_upkeep_not_a_full_shoe_care_project
+  - id: couch_reset
+    label: couch reset
+    area: living_room
+    trigger_type: hybrid
+    target_frequency_days: 14
+    frequency_status: experimental
+    threshold_signal: dog_hair_building_or_section_alignment_drifting
+    last_done: null
+    current_signal: planned_for_2026_04_05_with_vacuum_plus_realignment_scope
+    status: active
+    effort: medium
+    next_due_estimate: 2026-04-05
+    current_cycle_plan:
+      today_scope: vacuum_cushions_pillows_and_back_cushions_then_realign_the_sectional
+      completion_marker: visible_hair_is_reduced_and_the_sections_look_straight_again
+    notes:
+      - start_this_as_a_biweekly_experiment_not_a_weekly_default
+      - pull_it_forward_early_only_if_hair_or_drift_becomes_physically_real
+      - scheduled_for_tomorrow_after_user_named_it_as_a_real_task
+  - id: living_room_reset
+    label: living room reset
+    area: living_room
+    trigger_type: calendar
+    target_frequency_days: 7
+    frequency_status: experimental
+    last_done: null
+    current_signal: user_is_doing_a_floor_and_put_things_back_reset_on_2026_04_04
+    status: active
+    effort: low_to_medium
+    next_due_estimate: 2026-04-04
+    current_cycle_plan:
+      today_scope: clear_the_floor_and_put_living_room_items_back_in_their_place
+      completion_marker: floor_is_reset_and_stray_items_are_back_home
+    notes:
+      - keep_this_as_a_weekly_tidy_reset_not_a_hidden_deep_clean
   - id: folding_laundry
     label: folding laundry
     area: laundry
     trigger_type: hybrid
     target_frequency_days: 7
     frequency_status: experimental
-    threshold_signal: clean_dry_clothes_waiting_or_another_wash_cycle_finishes_before_the_last_load_is_folded
-    last_done: 2026-03-23
-    current_signal: completed_today_but_likely_to_reappear_when_the_new_laundry_cycle_finishes
+    threshold_signal: clean_dry_clothes_waiting
+    last_done: 2026-04-04
+    current_signal: previous_leftover_clean_load_was_finished_on_2026_04_04_and_the_next_fold_will_become_real_after_tomorrows_new_load
     status: fresh
     effort: low_to_medium
-    backlog_severity: one_waiting_load_now_repeated_wash_cycles_without_folding_should_raise_pressure
-    next_due_estimate: 2026-03-30_or_sooner_if_the_new_laundry_cycle_finishes_first
-    weekly_candidate: false
-    carry_forward: true
-    split_candidate: put_away_if_folding_and_putting_away_start_feeling_like_separate_jobs
     current_cycle_plan:
-      today_scope: completed_on_2026_03_23_as_fold_and_put_away_of_the_waiting_laundry
-      completion_marker: achieved_on_2026_03_23_clean_dry_clothes_folded_and_put_away
-    notes:
-      - onboarded_when_the_user_chose_to_make_folding_a_real_task_for_tomorrow
-      - use_a_weekly_backstop_so_folding_does_not_sprawl_quietly
-      - one_waiting_load_is_normal_due_pressure_but_repeated_wash_cycles_without_folding_should_make_this_feel_more_urgent
-      - a_new_load_started_right_after_completion_so_the_next_folding_cycle_may_return_sooner_than_the_weekly_backstop
+      today_scope: fold_and_put_away_the_current_clean_load
+      completion_marker: clean_dry_clothes_are_not_left_lingering_in_the_basket
   - id: descale_electric_kettle
     label: descale electric kettle
     area: kitchen
@@ -137,19 +144,10 @@ tracked_tasks:
     target_frequency_days: 30
     frequency_status: experimental
     last_done: 2026-03-23
-    current_signal: completed_today_kettle_descaled_and_back_in_normal_use
+    current_signal: not_part_of_this_weeks_restart_scope
     status: fresh
     effort: low
     next_due_estimate: 2026-04-22
-    weekly_candidate: false
-    carry_forward: true
-    split_candidate: none_for_now
-    current_cycle_plan:
-      today_scope: completed_on_2026_03_23_as_kettle_descale_and_rinse
-      completion_marker: achieved_on_2026_03_23_kettle_descaled_and_rinsed_ready_for_normal_use
-    notes:
-      - onboarded_when_the_user_named_it_as_a_real_monday_task
-      - thirty_days_is_a_trial_cadence_until_real_household_use_suggests_a_better_interval
 
 task_candidates_not_yet_onboarded:
   - dishwasher_cycle

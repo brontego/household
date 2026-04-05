@@ -1,26 +1,21 @@
 week:
-  start_date: 2026-03-16
-  focus: keep_household_light_but_real_by_adding_kitchen_reset_and_using_saturday_as_the_weekly_reset_block
-  status: active
+  start_date: 2026-04-06
+  focus: honest_household_carryover_with_the_same_two_task_cap
+  status: carryover_active
 
 priority_outcomes:
-  - keep_laundry_daily_wear_as_a_clean_first_trial_task
-  - onboard_kitchen_reset_as_the_second_real_tracked_task
-  - use_saturday_for_household_updates_and_next_week_planning
-  - publish_a_clean_snapshot_for_dross
-  - avoid_overbuilding_the_task_catalog_before_real_use_exists
+  - finish_one_of_the_two_carryover_tasks_early_in_the_week
+  - finish_the_other_top_task_if_energy_and_time_hold
+  - keep_bathroom_and_threshold_chores_secondary_until_the_top_two_pressure_drops
+  - use_weekend_closeout_to_note_real_cadence_signals_without_inventing_a_full_apartment_reset
 
 todo_updates:
-  - judge_whether_the_seven_day_trial_frequency_was_about_right
-  - judge_whether_kitchen_reset_wants_a_weekly_cadence_after_a_few_real_cycles
-  - note_whether_folding_needs_to_be_split_from_washing
-  - note_whether_dishwasher_or_counter_reset_deserve_separate_tracking_later
-  - add_the_next_household_task_only_when_it_becomes_salient_enough_to_matter
-  - keep_the_completion_definition_as_wash_plus_dry_or_hang_not_fold_unless_you_explicitly_change_it
+  - note_whether_overdue_status_changes_motivation_or_only_changes_the_story
+  - keep_folding_separate_from_laundry_completion
+  - judge_whether_bathroom_clean_really_needs_promotion_next_cycle
+  - preserve_simple_completion_definitions
 
 notes:
-  - one_real_task_is_better_than_a_big_theoretical_registry
-  - threshold_based_household_work_deserves_first_class_support
-  - due_soon_is_good_enough_even_when_last_done_is_unknown
-  - 2026_03_18_laundry_was_completed_as_wash_plus_dry_or_hang_with_folding_explicitly_left_unplanned
-  - 2026_03_21_is_now_the_first_real_kitchen_reset_and_household_weekly_update_block
+  - carried_tasks_count_even_if_the_calendar_rolled
+  - one_clean_early_week_completion_is_better_than_a_big_theoretical_reset
+  - if_only_one_top_task_gets_done_cleanly_that_is_still_progress
