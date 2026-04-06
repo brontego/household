@@ -4,7 +4,7 @@ Week of April 6, 2026
 
 ## Objective
 
-Carry the Saturday reset forward honestly: `kitchen_reset` and `bathroom_clean` landed on 2026-04-04, but `laundry_daily_wear` still needs another real load and the current folding work is just leftovers from earlier completed loads.
+Carry the Saturday reset forward honestly: `kitchen_reset` and `bathroom_clean` landed on 2026-04-04, and `laundry_daily_wear`, `living_room_reset`, and `couch_reset` all landed on Sunday, April 5, 2026.
 Keep the board small so momentum does not immediately turn into a fresh chore pile.
 
 ## Completed during the Saturday reset
@@ -13,38 +13,35 @@ Keep the board small so momentum does not immediately turn into a fresh chore pi
   - completed with the intended low-to-medium scope
 - `bathroom_clean`
   - completed cleanly during the same block
+- `laundry_daily_wear`
+  - completed on 2026-04-05; the next cycle only opens when the hamper is physically real again
+- `living_room_reset`
+  - completed on 2026-04-05 and still scoped as a floor-and-put-things-back weekly reset
+- `couch_reset`
+  - completed on 2026-04-05 with the vacuum-plus-realign protocol and stays biweekly by default
 
 ## Current active tasks
 
-- `living_room_reset`
-  - status: `active`
-  - this week's scope: floor clear plus putting things back in place
-  - keep it as a weekly tidy reset, not a hidden deep clean
-- `laundry_daily_wear`
-  - status: `active`
-  - this week's scope: run the next daily-wear load tomorrow
-  - user intends to fold it the same day, but the system still counts wash plus dry or hang as the core completion
 - `clean_shoe_midsoles`
   - status: `fresh`
-  - this week's scope: only if household still feels light after folding
+  - this week's scope: only if household still feels light after the stronger weekend closeout
 
 ## Secondary threshold tasks only if they become physically real
 
 - `trash_takeout`
-- `couch_reset`
 - `descale_electric_kettle`
 
 ## Daily plan
 
 ### Monday, April 6, 2026
 
-- if the planned Sunday load did not happen, run it cleanly first
-- if the planned Sunday fold did not happen, treat it as follow-through rather than as proof the wash cycle failed
+- no Sunday laundry carryover remains; only touch threshold chores if they are physically real
+- keep household in maintenance mode rather than inventing a replacement task stack
 
 ### Tuesday, April 7, 2026
 
 - `clean_shoe_midsoles` only if it still sounds like a small easy win
-- `couch_reset` is already planned for tomorrow, so do it with the vacuum-plus-realign scope and keep it out of the weekly default bucket afterward
+- do not recreate `couch_reset` just because it landed cleanly on 2026-04-05; leave it on the biweekly-plus-threshold cadence
 - do not promote a larger task just because the week feels newly open
 
 ### Wednesday, April 8, 2026
@@ -58,7 +55,7 @@ Keep the board small so momentum does not immediately turn into a fresh chore pi
 
 ### Friday, April 10, 2026
 
-- keep the board honest if folding, the next laundry load, or a threshold task is still hanging around
+- keep the board honest if a new laundry cycle or threshold task is physically real again
 - do not refill it just because the earlier reset work went well
 
 ### Saturday, April 11, 2026
@@ -73,8 +70,7 @@ Keep the board small so momentum does not immediately turn into a fresh chore pi
 
 ## Rules for now
 
-- `kitchen_reset` and `bathroom_clean` landed; `laundry_daily_wear` did not
-- the leftover folding task is done, but that still does not count as proof that the next daily-wear load already happened
+- `kitchen_reset`, `bathroom_clean`, `laundry_daily_wear`, `living_room_reset`, and `couch_reset` all landed across the 2026-04-04 to 2026-04-05 reset block
 - folding is its own task once the clean load exists
 - living room reset can be weekly if it stays at the floor-and-put-things-back level
 - couch reset is a biweekly-plus-threshold experiment, not a weekly default

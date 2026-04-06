@@ -1,17 +1,16 @@
 system: household
 week_of: 2026-04-06
-status: yellow
+status: green
 next_required_update_by: 2026-04-12
 active_goals:
-  - run_the_planned_2026_04_05_daily_wear_load_and_treat_same_day_folding_as_a_bonus_if_it_lands
-  - land_the_living_room_reset_today_without_turning_it_into_general_cleaning
-  - do_the_couch_reset_tomorrow_with_vacuum_plus_realignment_scope_then_leave_it_on_a_biweekly_default
+  - keep_household_in_maintenance_mode_after_the_2026_04_05_closeout
+  - use_clean_shoe_midsoles_only_if_it_is_a_real_easy_win
+  - leave_couch_reset_on_a_biweekly_plus_threshold_cadence_not_a_weekly_requirement
 capacity_demand:
-  time_hours: 1.2
+  time_hours: 0.6
   cognitive_load: low
 risks:
-  - tomorrow_laundry_could_split_into_wash_now_fold_later_even_if_the_intent_is_same_day_completion
-  - living_room_reset_could_expand_past_floor_and_put_things_back_scope
+  - a_clean_weekend_closeout_could_invite_optional_tasks_that_are_not_physically_real
   - couch_reset_could_sprawl_or_get_overfrequent_if_it_is_treated_like_a_weekly_standard
   - threshold_chores_could_get_promoted_without_being_physically_real
 requests_for_other_systems:
@@ -22,3 +21,4 @@ lessons_candidate:
   - folding_leftovers_are_not_proof_that_the_current_laundry_cycle_is_done
   - sectional_plus_dog_couch_reset_likely_wants_a_biweekly_threshold_sensitive_protocol
   - living_room_reset_can_be_weekly_if_it_stays_at_the_put_things_back_level
+  - once_the_weekend_closeout_lands_household_should_return_to_maintenance_mode_instead_of_filling_the_board_back_up
