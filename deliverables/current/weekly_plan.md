@@ -60,6 +60,9 @@ Keep the board small so momentum does not immediately turn into a fresh chore pi
 
 ### Saturday, April 11, 2026
 
+- `laundry_daily_wear`
+  - now scheduled as a real Saturday task
+- if kitchen or bathroom already feel physically real again, Saturday is the better day to handle them because Sunday's date reduces cleanup bandwidth
 - check whether kitchen or bathroom already feel real again before promoting anything
 - the win condition is that the apartment still feels easier, not transformed
 

@@ -19,12 +19,12 @@ tracked_tasks:
     frequency_status: experimental
     threshold_signal: hamper_mostly_full
     last_done: 2026-04-05
-    current_signal: completed_cleanly_on_2026_04_05_and_no_longer_live_as_carryover_work
-    status: fresh
+    current_signal: user_named_tomorrow_2026_04_11_as_the_next_real_cycle_so_saturday_now_carries_the_next_load
+    status: active
     effort: medium
-    next_due_estimate: 2026-04-12
+    next_due_estimate: 2026-04-11
     current_cycle_plan:
-      today_scope: next_cycle_only_when_the_hamper_is_real_again
+      today_scope: run_the_next_daily_wear_load_on_saturday_2026_04_11
       completion_marker: wash_plus_dry_or_hang_still_count_as_completion_for_the_next_cycle
     notes:
       - start_coarse_with_daily_wear_only
@@ -131,7 +131,7 @@ tracked_tasks:
     frequency_status: experimental
     threshold_signal: clean_dry_clothes_waiting
     last_done: 2026-04-04
-    current_signal: previous_leftover_clean_load_was_finished_on_2026_04_04_and_the_next_fold_will_become_real_after_tomorrows_new_load
+    current_signal: previous_leftover_clean_load_was_finished_on_2026_04_04_and_the_next_fold_will_only_become_real_after_saturdays_new_load
     status: fresh
     effort: low_to_medium
     current_cycle_plan:
