@@ -21,6 +21,7 @@
 | couch reset | hybrid | fresh | 2026-04-05 | medium | 2026-04-19 | completed on 2026-04-05 and stays on a biweekly-plus-threshold cadence |
 | trash takeout | threshold | monitor | 2026-03-22 | low | threshold only | only do it if the bins are actually full enough to be real |
 | descale electric kettle | calendar | fresh | 2026-03-23 | low | 2026-04-22 | not part of this week's restart scope |
+| check and oil wooden utensils | hybrid | fresh | not_logged_yet | low | monthly-to-bimonthly trial | oil only items that look dull, rough, dry, or thirsty; this is a check task, not a batch-oiling task |
 
 ## Carry-forward rule
 

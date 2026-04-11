@@ -14,8 +14,10 @@ todo_updates:
   - keep_folding_separate_from_laundry_completion
   - judge_whether_bathroom_clean_really_needs_promotion_next_cycle
   - preserve_simple_completion_definitions
+  - onboard_wooden_utensil_oil_check_as_a_monthly_to_bimonthly_trial_and_review_the_cadence_after_the_first_real_cycle
 
 notes:
   - carried_tasks_count_even_if_the_calendar_rolled
   - one_clean_early_week_completion_is_better_than_a_big_theoretical_reset
   - if_only_one_top_task_gets_done_cleanly_that_is_still_progress
+  - wooden_utensil_oiling_should_stay_a_check_first_not_an_everything_all_at_once_job

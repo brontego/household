@@ -62,8 +62,11 @@ Keep the board small so momentum does not immediately turn into a fresh chore pi
 
 - `laundry_daily_wear`
   - now scheduled as a real Saturday task
+- `laundry_folding`
+  - becomes the real follow-through task once the current clean load is ready
 - if kitchen or bathroom already feel physically real again, Saturday is the better day to handle them because Sunday's date reduces cleanup bandwidth
 - check whether kitchen or bathroom already feel real again before promoting anything
+- live note: laundry has started and kitchen reset is done, so the remaining household win condition is follow-through, not opening more rooms
 - the win condition is that the apartment still feels easier, not transformed
 
 ### Sunday, April 12, 2026
@@ -75,6 +78,8 @@ Keep the board small so momentum does not immediately turn into a fresh chore pi
 
 - `kitchen_reset`, `bathroom_clean`, `laundry_daily_wear`, `living_room_reset`, and `couch_reset` all landed across the 2026-04-04 to 2026-04-05 reset block
 - folding is its own task once the clean load exists
+- when laundry is already started and kitchen reset is already done, protect follow-through instead of promoting new chores
+- wooden utensil care is now a monthly-to-bimonthly check task; only oil items that actually look dry or rough instead of turning it into a whole-drawer batch job
 - living room reset can be weekly if it stays at the floor-and-put-things-back level
 - couch reset is a biweekly-plus-threshold experiment, not a weekly default
 - do not let a fresh win justify inventing a whole-apartment project

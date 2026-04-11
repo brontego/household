@@ -148,8 +148,26 @@ tracked_tasks:
     status: fresh
     effort: low
     next_due_estimate: 2026-04-22
+  - id: check_and_oil_wooden_utensils
+    label: check and oil wooden utensils
+    area: kitchen
+    trigger_type: hybrid
+    target_frequency_days: 45
+    frequency_status: experimental
+    threshold_signal: high_use_items_look_dry_rough_faded_or_thirsty
+    last_done: null
+    current_signal: newly_onboarded_monthly_to_bimonthly_check_not_needed_today_unless_items_already_look_dry
+    status: fresh
+    effort: low
+    current_cycle_plan:
+      today_scope: quick_visual_and_touch_check_then_oil_only_the_items_that_actually_need_it
+      completion_marker: any_dry_items_get_a_light_coat_of_food_safe_oil_and_excess_is_wiped_off_after_resting
+    notes:
+      - signs_an_item_needs_oil_include_dull_or_faded_color_rough_feel_dry_or_chalky_look_or_water_absorbing_quickly
+      - wash_and_fully_dry_first_then_apply_a_thin_coat_of_food_safe_mineral_oil_or_board_butter
+      - let_it_rest_for_a_few_hours_or_overnight_then_wipe_off_any_excess
+      - this_is_a_check_task_not_an_oil_everything_task
 
 task_candidates_not_yet_onboarded:
   - dishwasher_cycle
   - oil_cutting_boards
-  - oil_wooden_spoons
