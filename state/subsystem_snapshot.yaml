@@ -1,26 +1,20 @@
 system: household
-week_of: 2026-04-06
+week_of: 2026-04-20
 status: green
-next_required_update_by: 2026-04-12
+next_required_update_by: 2026-04-27
 active_goals:
-  - finish_the_real_saturday_laundry_cycle_with_folding_later_today_without_turning_the_day_into_a_full_apartment_reset
-  - keep_the_kitchen_reset_closed_and_only_promote_bathroom_if_it_is_physically_real
-  - leave_couch_reset_on_a_biweekly_plus_threshold_cadence_not_a_weekly_requirement
+  - pause_household_chores_during_work_travel
+  - create_no_fake_chore_debt
+  - handle_only_true_urgent_items_if_they_appear
 capacity_demand:
-  time_hours: 0.6
+  time_hours: 0
   cognitive_load: low
 risks:
-  - saturday_can_get_overloaded_if_laundry_kitchen_and_bathroom_all_get_promoted_at_once
-  - couch_reset_could_sprawl_or_get_overfrequent_if_it_is_treated_like_a_weekly_standard
-  - threshold_chores_could_get_promoted_without_being_physically_real
+  - reentry_can_create_a_fake_chore_debt_story_if_the_pause_is_not_explicit
+  - urgent_items_should_stay_exception_based_not_planned_scope
 cross_system_checks:
-  - aligned | one_way | target=mealplanning | topic=saturday_capacity | need=Household should check that reset work is not crowding out Saturday meal planning and prep.
-  - open | one_way | target=dating | topic=presentation_scope | need=Household should keep any date-driven presentation work small and immediate instead of turning it into a full apartment reset.
+  - aligned | one_way | target=oversystem | topic=no_chore_week | need=Dross should treat Household as intentionally paused during travel week.
 requests_for_other_systems:
-  - oversystem: keep_household_focused_on_real_laundry_follow_through_without_reinflating_the_board
-  - mealplanning: do_not_let_household_crowd_out_the_saturday_food_planning_block
+  - oversystem: do_not_assign_household_tasks_during_travel_week
 lessons_candidate:
-  - folding_leftovers_are_not_proof_that_the_current_laundry_cycle_is_done
-  - sectional_plus_dog_couch_reset_likely_wants_a_biweekly_threshold_sensitive_protocol
-  - living_room_reset_can_be_weekly_if_it_stays_at_the_put_things_back_level
-  - once_the_weekend_closeout_lands_household_should_return_to_maintenance_mode_instead_of_filling_the_board_back_up
+  - no_chore_travel_weeks_need_to_be_named_so_the_system_does_not_create_fake_carryover

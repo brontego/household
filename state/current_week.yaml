@@ -1,23 +1,18 @@
 week:
-  start_date: 2026-04-06
-  focus: honest_household_carryover_with_the_same_two_task_cap
-  status: carryover_active
+  start_date: 2026-04-20
+  focus: no_chores_during_work_travel
+  status: paused_on_purpose
 
 priority_outcomes:
-  - finish_one_of_the_two_carryover_tasks_early_in_the_week
-  - finish_the_other_top_task_if_energy_and_time_hold
-  - keep_bathroom_and_threshold_chores_secondary_until_the_top_two_pressure_drops
-  - use_weekend_closeout_to_note_real_cadence_signals_without_inventing_a_full_apartment_reset
+  - pause_household_without_creating_fake_chore_debt
+  - handle_only_true_urgent_items_if_they_appear
+  - resume_household_after_travel
 
 todo_updates:
-  - note_whether_overdue_status_changes_motivation_or_only_changes_the_story
-  - keep_folding_separate_from_laundry_completion
-  - judge_whether_bathroom_clean_really_needs_promotion_next_cycle
-  - preserve_simple_completion_definitions
-  - onboard_wooden_utensil_oil_check_as_a_monthly_to_bimonthly_trial_and_review_the_cadence_after_the_first_real_cycle
+  - no_planned_chores_this_week
+  - no_departure_or_reentry_chore_assignment_unless_something_is_truly_urgent
 
 notes:
-  - carried_tasks_count_even_if_the_calendar_rolled
-  - one_clean_early_week_completion_is_better_than_a_big_theoretical_reset
-  - if_only_one_top_task_gets_done_cleanly_that_is_still_progress
-  - wooden_utensil_oiling_should_stay_a_check_first_not_an_everything_all_at_once_job
+  - household_is_paused_on_purpose
+  - no_fake_chore_debt_from_time_away
+  - travel_week_success_is_not_adding_household_pressure
