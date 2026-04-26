@@ -1,20 +1,20 @@
 system: household
-week_of: 2026-04-20
+week_of: 2026-04-27
 status: green
-next_required_update_by: 2026-04-27
+next_required_update_by: 2026-05-03
 active_goals:
-  - pause_household_chores_during_work_travel
-  - create_no_fake_chore_debt
-  - handle_only_true_urgent_items_if_they_appear
+  - finish_laundry
+  - vacuum_the_bedroom
+  - keep_the_scope_small_enough_that_household_does_not_eat_the_whole_reset
 capacity_demand:
-  time_hours: 0
+  time_hours: 1.0
   cognitive_load: low
 risks:
-  - reentry_can_create_a_fake_chore_debt_story_if_the_pause_is_not_explicit
-  - urgent_items_should_stay_exception_based_not_planned_scope
+  - household_can_expand_past_the_two_real_tasks_if_the_reset_starts_feeling_morally_loaded
+  - unpacking_can_fake_more_urgency_than_it_deserves
 cross_system_checks:
-  - aligned | one_way | target=oversystem | topic=no_chore_week | need=Dross should treat Household as intentionally paused during travel week.
+  - aligned | one_way | target=oversystem | topic=small_reset | need=Dross should treat Household as two real chores plus any true remaining unpacking only.
 requests_for_other_systems:
-  - oversystem: do_not_assign_household_tasks_during_travel_week
+  - oversystem: do_not_add_extra_chore_scope_this_week
 lessons_candidate:
-  - no_chore_travel_weeks_need_to_be_named_so_the_system_does_not_create_fake_carryover
+  - naming_the_already_clean_rooms_helps_keep_household_from_recleaning_itself_for_comfort

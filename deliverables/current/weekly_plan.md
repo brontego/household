@@ -1,17 +1,31 @@
 # Weekly Household Plan
 
-Week of April 20, 2026
+Week of April 27, 2026
 
 ## Objective
 
-No chores this week.
+Get the apartment back to a usable baseline without turning the week into a chore apology tour.
 
-## Rule
+## Already Done
 
-Household is paused during work travel. Do not assign departure, travel, or re-entry chores as planned obligations.
+- kitchen is clean
+- bathroom is clean
+
+## Real Jobs
+
+- laundry
+- vacuum the bedroom
+- finish any obvious leftover unpacking or travel fallout that still makes the place feel annoying
+
+## Not The Job
+
+- deep cleaning
+- re-organizing the whole apartment
+- creating fake backlog debt because travel happened
 
 ## Success Condition
 
-- No fake chore debt.
-- If something truly urgent appears, handle only that item.
-- Otherwise Household resumes after travel.
+- Laundry is done.
+- The bedroom is vacuumed.
+- The apartment feels easier to live in on Monday than it did on Sunday.
+- Household does not steal the whole reset.

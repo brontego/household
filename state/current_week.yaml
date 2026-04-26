@@ -1,18 +1,20 @@
 week:
-  start_date: 2026-04-20
-  focus: no_chores_during_work_travel
-  status: paused_on_purpose
+  start_date: 2026-04-27
+  focus: laundry_bedroom_vacuum_and_basic_livability_only
+  status: low_scope_reset
 
 priority_outcomes:
-  - pause_household_without_creating_fake_chore_debt
-  - handle_only_true_urgent_items_if_they_appear
-  - resume_household_after_travel
+  - finish_the_two_real_chores_instead_of_inventing_more
+  - keep_the_home_usable_without_a_deep_clean_story
+  - let_unpacking_count_only_if_it_is_still_true_friction
 
 todo_updates:
-  - no_planned_chores_this_week
-  - no_departure_or_reentry_chore_assignment_unless_something_is_truly_urgent
+  - do_the_laundry
+  - vacuum_the_bedroom
+  - finish_any_remaining_trip_fallout_that_still_blocks_livability
+  - leave_the_clean_kitchen_and_bathroom_alone
 
 notes:
-  - household_is_paused_on_purpose
+  - household_scope_is_small_on_purpose
+  - already_clean_rooms_do_not_need_bonus_work
   - no_fake_chore_debt_from_time_away
-  - travel_week_success_is_not_adding_household_pressure
