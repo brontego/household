@@ -10,11 +10,12 @@ Get the apartment back to a usable baseline without turning the week into a chor
 
 - kitchen is clean
 - bathroom is clean
+- bedroom is vacuumed
+- laundry is washed and is in the dryer / on the drying rack
 
 ## Real Jobs
 
-- laundry
-- vacuum the bedroom
+- put away the dry laundry when it is actually dry
 - finish any obvious leftover unpacking or travel fallout that still makes the place feel annoying
 
 ## Not The Job
@@ -25,7 +26,7 @@ Get the apartment back to a usable baseline without turning the week into a chor
 
 ## Success Condition
 
-- Laundry is done.
+- Laundry is functionally done, with only put-away remaining when the clothes are dry.
 - The bedroom is vacuumed.
 - The apartment feels easier to live in on Monday than it did on Sunday.
 - Household does not steal the whole reset.

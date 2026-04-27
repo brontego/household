@@ -3,14 +3,13 @@ week_of: 2026-04-27
 status: green
 next_required_update_by: 2026-05-03
 active_goals:
-  - finish_laundry
-  - vacuum_the_bedroom
+  - put_away_the_dry_laundry_when_ready
   - keep_the_scope_small_enough_that_household_does_not_eat_the_whole_reset
 capacity_demand:
-  time_hours: 1.0
+  time_hours: 0.25
   cognitive_load: low
 risks:
-  - household_can_expand_past_the_two_real_tasks_if_the_reset_starts_feeling_morally_loaded
+  - household_can_keep_going_after_the_real_reset_is_already_won
   - unpacking_can_fake_more_urgency_than_it_deserves
 cross_system_checks:
   - aligned | one_way | target=oversystem | topic=small_reset | need=Dross should treat Household as two real chores plus any true remaining unpacking only.
@@ -18,3 +17,4 @@ requests_for_other_systems:
   - oversystem: do_not_add_extra_chore_scope_this_week
 lessons_candidate:
   - naming_the_already_clean_rooms_helps_keep_household_from_recleaning_itself_for_comfort
+  - calling_laundry_functionally_done_before_put_away_can_reduce_weekend_drag_without_losing_track_of_the_last_step

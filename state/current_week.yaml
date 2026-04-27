@@ -1,16 +1,15 @@
 week:
   start_date: 2026-04-27
-  focus: laundry_bedroom_vacuum_and_basic_livability_only
-  status: low_scope_reset
+  focus: dry_laundry_put_away_and_basic_livability_only
+  status: mostly_done_waiting_on_dry_clothes
 
 priority_outcomes:
-  - finish_the_two_real_chores_instead_of_inventing_more
+  - finish_the_last_small_household_step_instead_of_inventing_more
   - keep_the_home_usable_without_a_deep_clean_story
   - let_unpacking_count_only_if_it_is_still_true_friction
 
 todo_updates:
-  - do_the_laundry
-  - vacuum_the_bedroom
+  - put_away_the_dry_laundry_when_ready
   - finish_any_remaining_trip_fallout_that_still_blocks_livability
   - leave_the_clean_kitchen_and_bathroom_alone
 
@@ -18,3 +17,4 @@ notes:
   - household_scope_is_small_on_purpose
   - already_clean_rooms_do_not_need_bonus_work
   - no_fake_chore_debt_from_time_away
+  - laundry_and_bedroom_vacuum_are_already_done
