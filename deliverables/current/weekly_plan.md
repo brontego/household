@@ -1,32 +1,39 @@
 # Weekly Household Plan
 
-Week of April 27, 2026
+Week of May 4, 2026
 
 ## Objective
 
-Get the apartment back to a usable baseline without turning the week into a chore apology tour.
+Keep the home in good shape and stop, because the real Monday household work is done.
 
-## Already Done
+## Already True
 
-- kitchen is clean
-- bathroom is clean
-- bedroom is vacuumed
-- laundry is washed and is in the dryer / on the drying rack
+- the home is in good shape
+- the home does not need a deep reset
+- the laundry is put away
+- the recycling is out
+- the bathroom was fully cleaned today
 
 ## Real Jobs
 
-- put away the dry laundry when it is actually dry
-- finish any obvious leftover unpacking or travel fallout that still makes the place feel annoying
+- no additional household job is required right now
+- stop unless another threshold task becomes physically real
+
+## Daily plan
+
+### Monday, May 4, 2026
+
+- Bathroom fully cleaned.
+- Stop unless another obvious threshold task appears.
 
 ## Not The Job
 
 - deep cleaning
-- re-organizing the whole apartment
-- creating fake backlog debt because travel happened
+- reorganizing rooms that already work
+- inventing chores because another system feels uncertain
 
 ## Success Condition
 
-- Laundry is functionally done, with only put-away remaining when the clothes are dry.
-- The bedroom is vacuumed.
-- The apartment feels easier to live in on Monday than it did on Sunday.
-- Household does not steal the whole reset.
+- the apartment stays normal
+- household does not expand past maintenance mode
+- the real Monday household tasks are done and do not turn into a bigger project

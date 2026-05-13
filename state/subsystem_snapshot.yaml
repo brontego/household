@@ -1,20 +1,22 @@
 system: household
-week_of: 2026-04-27
+week_of: 2026-05-04
 status: green
-next_required_update_by: 2026-05-03
+next_required_update_by: 2026-05-10
 active_goals:
-  - put_away_the_dry_laundry_when_ready
-  - keep_the_scope_small_enough_that_household_does_not_eat_the_whole_reset
+  - keep_household_done_for_today_and_do_not_reopen_scope
+  - maintain_the_current_good_home_state
+  - keep_household_bounded_to_maintenance_mode
 capacity_demand:
-  time_hours: 0.25
+  time_hours: 0.4
   cognitive_load: low
 risks:
-  - household_can_keep_going_after_the_real_reset_is_already_won
-  - unpacking_can_fake_more_urgency_than_it_deserves
+  - a_good_baseline_can_still_trigger_fake_bonus_cleaning
+  - guilt_from_other_systems_could_try_to_turn_household_into_displacement_work
 cross_system_checks:
-  - aligned | one_way | target=oversystem | topic=small_reset | need=Dross should treat Household as two real chores plus any true remaining unpacking only.
+  - aligned | one_way | target=dating | topic=no_apartment_sprint | need=Household should support normal readiness without turning a date or followup into an all-day apartment project.
+  - aligned | one_way | target=mercer | topic=laundry_reality | need=Mercer can treat laundry as basically handled unless a specific outfit lane proves otherwise.
 requests_for_other_systems:
-  - oversystem: do_not_add_extra_chore_scope_this_week
+  - oversystem: keep_household_in_maintenance_mode
+  - mercer: do_not_inflate_wardrobe_scope_from_resolved_laundry
 lessons_candidate:
-  - naming_the_already_clean_rooms_helps_keep_household_from_recleaning_itself_for_comfort
-  - calling_laundry_functionally_done_before_put_away_can_reduce_weekend_drag_without_losing_track_of_the_last_step
+  - when_the_home_is_already_in_good_shape_finishing_the_real_monday_tasks_and_stopping_can_be_enough

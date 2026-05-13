@@ -1,20 +1,19 @@
 week:
-  start_date: 2026-04-27
-  focus: dry_laundry_put_away_and_basic_livability_only
-  status: mostly_done_waiting_on_dry_clothes
+  start_date: 2026-05-04
+  focus: home_in_good_shape_and_todays_household_work_is_done
+  status: maintenance_mode_with_mondays_real_tasks_completed
 
 priority_outcomes:
-  - finish_the_last_small_household_step_instead_of_inventing_more
-  - keep_the_home_usable_without_a_deep_clean_story
-  - let_unpacking_count_only_if_it_is_still_true_friction
+  - keep_the_home_in_good_shape_without_inventing_more_work
+  - stop_before_household_turns_into_a_guilt_project
 
 todo_updates:
-  - put_away_the_dry_laundry_when_ready
-  - finish_any_remaining_trip_fallout_that_still_blocks_livability
-  - leave_the_clean_kitchen_and_bathroom_alone
+  - bathroom_fully_cleaned
+  - no_bonus_cleaning_after_the_small_real_tasks_are_done
 
 notes:
-  - household_scope_is_small_on_purpose
+  - the_home_is_in_good_shape_as_of_2026_05_04
+  - the_laundry_is_put_away_and_the_recycling_is_out
+  - the_bathroom_was_fully_cleaned_on_2026_05_04
   - already_clean_rooms_do_not_need_bonus_work
-  - no_fake_chore_debt_from_time_away
-  - laundry_and_bedroom_vacuum_are_already_done
+  - no_fake_bonus_cleaning_just_because_other_systems_feel_uncertain

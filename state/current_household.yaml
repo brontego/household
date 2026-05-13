@@ -9,6 +9,7 @@ household:
   notes:
     - start_with_real_tasks_that_are_actually_showing_up
     - split_tasks_only_when_cadence_or_handling_meaningfully_differs
+    - as_of_2026_05_02_the_home_is_in_good_shape_and_should_be_treated_as_maintenance_mode_not_recovery_mode
 
 tracked_tasks:
   - id: laundry_daily_wear
@@ -18,14 +19,14 @@ tracked_tasks:
     target_frequency_days: 7
     frequency_status: experimental
     threshold_signal: hamper_mostly_full
-    last_done: 2026-04-05
-    current_signal: user_named_tomorrow_2026_04_11_as_the_next_real_cycle_so_saturday_now_carries_the_next_load
-    status: active
+    last_done: 2026-05-02
+    current_signal: current_cycle_is_basically_done_as_of_2026_05_02
+    status: fresh
     effort: medium
-    next_due_estimate: 2026-04-11
+    next_due_estimate: 2026-05-09
     current_cycle_plan:
-      today_scope: run_the_next_daily_wear_load_on_saturday_2026_04_11
-      completion_marker: wash_plus_dry_or_hang_still_count_as_completion_for_the_next_cycle
+      today_scope: no_new_laundry_job_is_required_until_the_next_real_cycle_appears
+      completion_marker: next_load_only_when_the_hamper_is_real_again
     notes:
       - start_coarse_with_daily_wear_only
       - do_not_require_folding_to_count_this_cycle_as_completed
@@ -59,17 +60,34 @@ tracked_tasks:
     current_signal: threshold_only_after_the_carryover_top_two_pressure_drops
     status: monitor
     effort: low
+  - id: recycling_takeout
+    label: recycling takeout
+    area: kitchen_and_general
+    trigger_type: threshold
+    target_frequency_days: null
+    frequency_status: experimental
+    threshold_signal: recycling_is_full_enough_to_be_real
+    last_done: 2026-05-04
+    current_signal: completed_on_2026_05_04_and_not_a_live_task_now
+    status: fresh
+    effort: low
+    current_cycle_plan:
+      today_scope: no_additional_recycling_job_is_required_until_the_next_real_load_appears
+      completion_marker: the_next_real_recycling_load_is_out_when_it_exists
   - id: bathroom_clean
     label: bathroom clean
     area: bathroom
     trigger_type: calendar
     target_frequency_days: 7
     frequency_status: experimental
-    last_done: 2026-04-04
-    current_signal: completed_during_the_2026_04_04_system_update_block_without_needing_promotion_into_a_deep_clean
+    last_done: 2026-05-04
+    current_signal: the_full_bathroom_was_cleaned_on_2026_05_04_and_is_not_a_live_task_now
     status: fresh
-    effort: medium
-    next_due_estimate: 2026-04-11
+    effort: low_to_medium
+    next_due_estimate: 2026-05-11
+    current_cycle_plan:
+      today_scope: no_additional_bathroom_clean_is_required_until_the_next_real_cycle_or_threshold_issue_appears
+      completion_marker: the_next_real_bathroom_cycle_is_finished_when_it_is_due_or_physically_real
     notes:
       - keep_the_scope_standard_so_weekly_testing_stays_honest
   - id: clean_shoe_midsoles
@@ -130,13 +148,13 @@ tracked_tasks:
     target_frequency_days: 7
     frequency_status: experimental
     threshold_signal: clean_dry_clothes_waiting
-    last_done: 2026-04-04
-    current_signal: previous_leftover_clean_load_was_finished_on_2026_04_04_and_the_next_fold_will_only_become_real_after_saturdays_new_load
+    last_done: 2026-05-04
+    current_signal: the_current_clean_dry_clothes_were_put_away_on_2026_05_04
     status: fresh
-    effort: low_to_medium
+    effort: low
     current_cycle_plan:
-      today_scope: fold_and_put_away_the_current_clean_load
-      completion_marker: clean_dry_clothes_are_not_left_lingering_in_the_basket
+      today_scope: no_additional_folding_job_is_required_until_clean_dry_clothes_are_waiting_again
+      completion_marker: the_next_clean_dry_load_is_put_away_when_it_is_real
   - id: descale_electric_kettle
     label: descale electric kettle
     area: kitchen
