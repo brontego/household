@@ -1,19 +1,18 @@
-week:
-  start_date: 2026-05-04
-  focus: home_in_good_shape_and_todays_household_work_is_done
-  status: maintenance_mode_with_mondays_real_tasks_completed
+﻿week:
+  start_date: 2026-06-08
+  focus: keep_the_home_in_perfect_condition_and_add_one_small_weekend_upkeep_task
+  status: maintenance_mode_with_no_recovery_project_needed
 
 priority_outcomes:
-  - keep_the_home_in_good_shape_without_inventing_more_work
-  - stop_before_household_turns_into_a_guilt_project
+  - keep_household_bounded_to_maintenance_mode
+  - oil_wooden_kitchen_utensils_this_weekend
+  - do_not_invent_bonus_cleaning_because_other_systems_are_heavier
 
 todo_updates:
-  - bathroom_fully_cleaned
-  - no_bonus_cleaning_after_the_small_real_tasks_are_done
+  - the_house_is_in_perfect_condition_right_now
+  - no_live_cleaning_recovery_lane_exists
+  - the_only_named_weekend_upkeep_task_is_the_wooden_utensils
 
 notes:
-  - the_home_is_in_good_shape_as_of_2026_05_04
-  - the_laundry_is_put_away_and_the_recycling_is_out
-  - the_bathroom_was_fully_cleaned_on_2026_05_04
-  - already_clean_rooms_do_not_need_bonus_work
-  - no_fake_bonus_cleaning_just_because_other_systems_feel_uncertain
+  - clothes_are_in_good_shape_and_laundry_is_not_currently_a_problem
+  - oiling_wooden_kitchen_utensils_is_a_real_small_task_not_a_whole_kitchen_project
